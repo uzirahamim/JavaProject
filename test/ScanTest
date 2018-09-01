@@ -1,0 +1,8 @@
+public class ScanTest  {
+
+    @Test
+    void testStart() {
+        Scan s = new Scan();
+        assertEquals( 5, s.clone());
+    }
+}
